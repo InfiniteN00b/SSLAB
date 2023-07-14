@@ -15,7 +15,7 @@ int main(){
         if(arg2[0] == '?' && result[0] == 'T')
             fprintf(fp2, "\nLD R0, %s", arg1);
         
-        if(arg2[0] != 'T' && arg2[0] != 'T' && strcmp(op, "+") == 0){
+        if(arg1[0] != 'T' && arg2[0] != 'T' && strcmp(op, "+") == 0){
             fprintf(fp2, "\nLD R1, %s", arg1);
             fprintf(fp2, "\nLD R2, %s", arg2);
             fprintf(fp2, "\nADD R1, R1, R2");
