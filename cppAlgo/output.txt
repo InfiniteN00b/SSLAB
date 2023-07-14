@@ -1,0 +1,7 @@
+
+LD R0, -B
+LD R1, C
+LD R2, D
+ADD R1, R1, R2
+MUL R1,R1,R0
+MUL R1,R1,R0
